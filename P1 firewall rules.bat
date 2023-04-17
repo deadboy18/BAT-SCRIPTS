@@ -1,0 +1,2 @@
+powershell -Command New-NetFirewallRule -DisplayName 'P1' -Profile @('Domain', 'Private', 'Public') -Direction Inbound -Action Allow -Protocol TCP -LocalPort @('2100', '2200', '2201', '2202', '2203', '2204', '2300', '2600', '2601', '3050');
+powershell -Command New-NetFirewallRule -DisplayName 'P1' -Profile @('Domain', 'Private', 'Public') -Direction Outbound -Action Allow -Protocol TCP -LocalPort @('2100', '2200', '2201', '2202', '2203', '2204', '2300', '2600', '2601', '3050');
