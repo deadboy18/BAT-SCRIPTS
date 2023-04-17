@@ -1,0 +1,15 @@
+@echo off
+
+REM Change directory to C:\e1-vhp\VHPPRINT
+cd /d C:\e1-vhp\VHPPRINT
+
+REM Check if VHPPrintService.exe is running and end its task
+tasklist /FI "IMAGENAME eq VHPPrintService.exe" | find /i "VHPPrintService.exe" && taskkill /IM VHPPrintService.exe /F
+
+REM Change directory to \OpenEdge\bin
+cd /d \OpenEdge\bin
+
+REM Check if prowin32.exe is running and end its task
+tasklist /FI "IMAGENAME eq prowin32.exe" | find /i "prowin32.exe" && taskkill /F /IM prowin32.exe
+
+
