@@ -4,6 +4,9 @@ Some of the file are for VHP Visual Hotel Program by SINDATA.net that I've made 
 
 ![banner](https://github.com/deadboy18/BAT-SCRIPTS/assets/53135082/ad041340-cf4d-4a36-a92f-f0f522b7cff5)
 
+![giphy](https://github.com/deadboy18/BAT-SCRIPTS/assets/53135082/3c79c3ae-403e-49bf-9ec9-31d680deb18b)
+
+![giphy (1)](https://github.com/deadboy18/BAT-SCRIPTS/assets/53135082/64a2d2cb-60ad-4b6d-bc92-93239c0ded66)
 
 # Some may require to right click > run as adminstrator 
 
