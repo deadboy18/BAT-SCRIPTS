@@ -42,3 +42,11 @@ This script defines a function called Test-Ping, which takes a target (hostname 
 
 The script then creates two arrays, one for hostnames and another for IP addresses. It iterates over each item in these arrays and calls the Test-Ping function to ping each hostname and IP address in turn.
 I'm using it to ping our onity keycard server,basically it pings 2 ip address and 2 hostname and replies a message if it responds correctly,you may edit it to your preference.
+
+
+# Added a shortcut file that when clicked takes you directly to the Network Connection Page on Windows
+It's basically a C:\Windows\System32\ncpa.cpl filepath
+
+# Added a shortcut file that when clicked takes you diretly to the windows Sounds setting
+It's basically a C:\Windows\System32\control.exe mmsys.cpl filepath
+Can be a fast way to edit the device sounds to custom audio wav format
