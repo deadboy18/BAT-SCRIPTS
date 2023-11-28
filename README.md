@@ -53,3 +53,8 @@ It's basically a C:\Windows\System32\ncpa.cpl filepath
 # Added a shortcut file that when clicked takes you diretly to the windows Sounds setting
 It's basically a C:\Windows\System32\control.exe mmsys.cpl filepath
 Can be a fast way to edit the device sounds to custom audio wav format
+
+#Rename.bat
+It is a file renamer when you download playlist from https://spotify-downloader.com/
+The files downloaded from the above site will contain the following keyword before them [SPOTIFY-DOWNLOADER.COM] just place the bat file into the same folder as the playlist you have downloaded.
+Specify the drive by default it's C and then specify the directory you can paste it for example \Users\IT\Desktop\christmas music.
