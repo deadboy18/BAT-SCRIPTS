@@ -58,3 +58,6 @@ Can be a fast way to edit the device sounds to custom audio wav format
 It is a file renamer when you download playlist from https://spotify-downloader.com/
 The files downloaded from the above site will contain the following keyword before them [SPOTIFY-DOWNLOADER.COM] just place the bat file into the same folder as the playlist you have downloaded.
 Specify the drive by default it's C and then specify the directory you can paste it for example \Users\IT\Desktop\christmas music.
+
+# Restart P1 Clien.exe EntryPass 
+Added a powershell script and a compiled exe that terminates the EntryPass P1 Client Exe and waits for 10 seconds so all it's process terminates and then re-launches it
